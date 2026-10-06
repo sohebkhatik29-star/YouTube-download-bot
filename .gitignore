@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Downloads and temp files
+downloads/
+data/*.session*
+data/cookies.txt
+*.log

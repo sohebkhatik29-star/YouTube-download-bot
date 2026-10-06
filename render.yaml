@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: youtube-downloader-bot
+    runtime: docker
+    plan: free
+    region: singapore
+    envVars:
+      - key: API_ID
+        value: "30720676"
+      - key: API_HASH
+        value: "a078e3476750afbd6db7d6c5e5e658d9"
+      - key: BOT_TOKEN
+        value: "8780722962:AAGL9e4IVewXxLoB-tuoCzI8b7Rfdkfm6XM"
+      - key: ADMINS
+        value: "5566977478"
+      - key: CHANNEL_URL
+        value: "https://t.me/MoviesGroupG3"
+      - key: WHITELIST_ENABLED
+        value: "false"
+      - key: PORT
+        value: "8080"
